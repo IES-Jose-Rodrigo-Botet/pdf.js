@@ -34,6 +34,11 @@ const AppConstants =
 
 window.PDFViewerApplication = PDFViewerApplication;
 window.PDFViewerApplicationConstants = AppConstants;
+
+// Customized options
+// console.log(AppOptions.getAll());
+AppOptions.set('defaultUrl', '');
+AppOptions.set('enableHighlightEditor', false);
 window.PDFViewerApplicationOptions = AppOptions;
 
 function getViewerConfiguration() {
